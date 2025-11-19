@@ -1,4 +1,5 @@
 # Recommended Sections for Each Page
+
 ## Home Page
 
 Your homepage should quickly explain who you are and why visitors should trust your tutorials.
@@ -15,7 +16,7 @@ Your homepage should quickly explain who you are and why visitors should trust y
 
 #### 2. Featured Programs
 
-- Show 3–6 of your top tutorials with thumbnails.
+- Show 3–6 of top tutorials with thumbnails.
 
 #### 3. How It Works
 
@@ -69,15 +70,15 @@ This page must be clear and conversion-focused.
 
 3. Each Course Card Should Show:
 
-    - Title
+   - Title
 
-    - Short description
+   - Short description
 
-    - Duration
+   - Duration
 
-    - Price
+   - Price
 
-    - CTA (Enroll / Learn More)
+   - CTA (Enroll / Learn More)
 
 4. Enrollment Process
 
@@ -127,31 +128,31 @@ If you're offering real tutorials, you should also consider:
 
 #### Where users see:
 
- - Enrolled courses
+- Enrolled courses
 
- - Progress
+- Progress
 
- - Certificates
+- Certificates
 
- - Account details
+- Account details
 
 ### ✔ Program Details Page
 
 #### When a user clicks a course:
 
- - Full description
+- Full description
 
- - Curriculum
+- Curriculum
 
- - Requirements
+- Requirements
 
- - Sample lessons
+- Sample lessons
 
- - Teacher profile
+- Teacher profile
 
- - Student reviews
+- Student reviews
 
- - CTA button
+- CTA button
 
 ### ✔ FAQ Page
 
@@ -161,53 +162,55 @@ If you're offering real tutorials, you should also consider:
 
 #### If you collect data or payments.
 
+---
 
----------------------------------------------------------
-| LOGO | Home | About | Programs | Blog | Contact | Login |
----------------------------------------------------------
+## | LOGO | Home | About | Programs | Blog | Contact | Login |
 
-[ HERO SECTION ]
----------------------------------------------------------
-| Headline: "Learn Anything, Anytime"                   |
-| Short Description: "Master new skills at your pace."  |
-| [Enroll Now] [Browse Programs]                        |
-| Hero Image / Illustration                             |
----------------------------------------------------------
+## [ HERO SECTION ]
 
-[ FEATURED PROGRAMS ]
----------------------------------------------------------
-|  Title: Our Popular Programs                          |
-|  [ Program Card 1 ] [ Program Card 2 ] [ Card 3 ]     |
-|  Each card: Title | Short Desc | Duration | Price      |
----------------------------------------------------------
+| Headline: "Learn Anything, Anytime" |
+| Short Description: "Master new skills at your pace." |
+| [Enroll Now] [Browse Programs] |
+| Hero Image / Illustration |
 
-[ HOW IT WORKS ]
----------------------------------------------------------
-| Step 1: Choose a Course                               |
-| Step 2: Learn at Your Pace                            |
-| Step 3: Earn Certificate                              |
----------------------------------------------------------
+---
 
-[ WHY CHOOSE US ]
----------------------------------------------------------
-| Icon + "Expert Instructors"                           |
-| Icon + "Flexible Learning"                            |
-| Icon + "Beginner Friendly"                            |
-| Icon + "Affordable Rates"                             |
----------------------------------------------------------
+## [ FEATURED PROGRAMS ]
 
-[ TESTIMONIALS ]
----------------------------------------------------------
-| “This program helped me improve so fast!” — Student   |
-| 3–4 testimonial cards                                 |
----------------------------------------------------------
+| Title: Our Popular Programs |
+| [ Program Card 1 ] [ Program Card 2 ] [ Card 3 ] |
+| Each card: Title | Short Desc | Duration | Price |
 
-[ LATEST BLOG POSTS ]
----------------------------------------------------------
-| Blog Post Card 1  | Blog Post Card 2 | Blog Post Card 3 |
----------------------------------------------------------
+---
 
-[ FOOTER ]
----------------------------------------------------------
-| Logo | Quick Links | Social Icons | Copyright         |
----------------------------------------------------------
+## [ HOW IT WORKS ]
+
+| Step 1: Choose a Course |
+| Step 2: Learn at Your Pace |
+| Step 3: Earn Certificate |
+
+---
+
+## [ WHY CHOOSE US ]
+
+| Icon + "Expert Instructors" |
+| Icon + "Flexible Learning" |
+| Icon + "Beginner Friendly" |
+| Icon + "Affordable Rates" |
+
+---
+
+## [ TESTIMONIALS ]
+
+| “This program helped me improve so fast!” — Student |
+| 3–4 testimonial cards |
+
+---
+
+## [ LATEST BLOG POSTS ]
+
+## | Blog Post Card 1 | Blog Post Card 2 | Blog Post Card 3 |
+
+## [ FOOTER ]
+
+## | Logo | Quick Links | Social Icons | Copyright |

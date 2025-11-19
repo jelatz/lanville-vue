@@ -9,25 +9,15 @@
         </h1>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
-          <Card
-            v-for="program in popularPrograms"
-            :key="program.id"
-            :title="program.title"
-            :imageUrl="program.imageUrl"
-            :imageAlt="program.imageAlt"
-            imageHeight="h-64"
-            shadow="xl"
-            class="min-h-110"
-            :hover="true"
-          >
+          <Card v-for="program in popularPrograms" :key="program.id" :title="program.title" :imageUrl="program.imageUrl"
+            :imageAlt="program.imageAlt" imageHeight="h-64" shadow="xl" class="min-h-110" :hover="true">
             <p class="line-clamp-6">
               {{ program.description }}
             </p>
 
             <button
               class="block ml-auto px-3 py-2 mt-4 bg-[#541517] text-white rounded hover:bg-[#3e0f11] transition duration-300 cursor-pointer"
-              @click="handleSeeMore(program.id)"
-            >
+              @click="handleSeeMore(program.id)">
               See more
             </button>
           </Card>
@@ -35,34 +25,65 @@
       </div>
     </Section>
 
-    <!-- FEATURED PROGRAMS -->
+    <!-- HOW IT WORKS -->
     <Section variant="secondary" padding="xl">
-      <div
-        class="container flex justify-between items-start gap-15 flex-col md:flex-row"
-      >
-        <img
-          src="../assets/images/hero-2.png"
-          alt="Sample Image"
-          class="w-140"
-        />
+      <div class="container">
+        <h1 class="text-center text-4xl font-bold mb-10">
+          Choose a Subject to Learn
+        </h1>
 
-        <p class="">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Necessitatibus ipsa at, adipisci quidem eligendi vitae vel atque
-          explicabo cumque, reprehenderit doloribus voluptates itaque animi
-          aperiam quisquam ab inventore delectus? Ab. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Ipsam nemo consequatur assumenda ut qui,
-          aut cumque molestiae incidunt, dignissimos reiciendis fugiat
-          consequuntur delectus, reprehenderit est inventore? Et animi nostrum
-          praesentium! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Nisi, minima cum ipsam voluptas quia deserunt consectetur, earum nobis
-          praesentium, facere odit ullam. Fugit, possimus magni! Aperiam nemo
-          debitis ratione aliquid.
-        </p>
+
       </div>
     </Section>
 
-    <!-- HOW IT WORKS -->
+    <!-- WHY CHOOSE US -->
+    <Section variant="default" padding="xl">
+      <div class="container">
+        <h1 class="text-center text-4xl font-bold mb-20">
+          Why Choose Us
+        </h1>
+        <div class="flex flex-col md:flex-row justify-center gap-40">
+          <img src="/src/assets/images/img1.png" alt="img1">
+          <img src="/src/assets/images/img2.png" alt="img2">
+          <img src="/src/assets/images/img3.png" alt="img3">
+        </div>
+      </div>
+    </Section>
+
+    <!-- TESTIMONIALS -->
+    <Section variant="default" padding="xl">
+      <div class="container">
+        <h1 class="text-center text-4xl font-bold mb-10">
+          Testimonials
+        </h1>
+      </div>
+    </Section>
+
+    <!-- LATEST BLOG POSTS -->
+    <Section variant="default" padding="xl">
+      <div class="container">
+        <h1 class="text-center text-4xl font-bold mb-10">
+          Latest Blog Posts
+        </h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
+          <Card v-for="BlogPost in latestBlogPosts" :key="BlogPost.id" :title="BlogPost.title"
+            :imageUrl="BlogPost.imageUrl" :imageAlt="BlogPost.imageAlt" imageHeight="h-64" shadow="xl" class="min-h-110"
+            :hover="true">
+            <p class="line-clamp-6">
+              {{ BlogPost.description }}
+            </p>
+
+            <button
+              class="block ml-auto px-3 py-2 mt-4 bg-[#541517] text-white rounded hover:bg-[#3e0f11] transition duration-300 cursor-pointer"
+              @click="handleSeeMore(BlogPost.id)">
+              See more
+            </button>
+          </Card>
+        </div>
+      </div>
+    </Section>
+
   </div>
 </template>
 
@@ -73,6 +94,14 @@ import Section from "@/components/Section.vue";
 import Card from "@/components/Card.vue";
 
 interface Program {
+  id: number;
+  title: string;
+  imageUrl: string;
+  imageAlt: string;
+  description: string;
+}
+
+interface BlogPost {
   id: number;
   title: string;
   imageUrl: string;
@@ -109,6 +138,30 @@ const handleSeeMore = (programId: number) => {
   console.log(`Viewing program ${programId}`);
   // Example: router.push(`/programs/${programId}`)
 };
+
+const latestBlogPosts = ref<BlogPost[]>([
+  {
+    id: 1,
+    title: "Latest in Tech",
+    imageUrl: "../../src/assets/images/hero-3.jpg",
+    imageAlt: "Tech photo",
+    description: "Stay updated with the latest trends in technology. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sunt, at, soluta fugiat sit veniam incidunt porro laborum, dolore repellendus corrupti saepe quaerat cupiditate iure dolorum accusamus dolorem iste sed."
+  },
+  {
+    id: 2,
+    title: "Latest in Tech",
+    imageUrl: "../../src/assets/images/hero-3.jpg",
+    imageAlt: "Tech photo",
+    description: "Stay updated with the latest trends in technology. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sunt, at, soluta fugiat sit veniam incidunt porro laborum, dolore repellendus corrupti saepe quaerat cupiditate iure dolorum accusamus dolorem iste sed."
+  },
+  {
+    id: 3,
+    title: "Latest in Tech",
+    imageUrl: "../../src/assets/images/hero-3.jpg",
+    imageAlt: "Tech photo",
+    description: "Stay updated with the latest trends in technology. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sunt, at, soluta fugiat sit veniam incidunt porro laborum, dolore repellendus corrupti saepe quaerat cupiditate iure dolorum accusamus dolorem iste sed."
+  }
+]);
 </script>
 
 <style scoped>
