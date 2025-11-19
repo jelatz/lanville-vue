@@ -25,10 +25,8 @@ import "swiper/css/pagination";
         <div class="absolute inset-y-1/2 w-full md:inset-y-50 z-30">
             <div class="backdrop-blur-sm bg-black/30 rounded-r-xl border border-white/20 shadow-2xl p-8 max-w-3xl">
                 <div class="text-center text-white">
-                    <div class="text-xl md:text-2xl font-bold mb-4 drop-shadow-lg">Welcome to <span
-                            class="block">Lanville
-                            Academy</span></div>
-                    <p class="text-md md:text-lg mb-6 drop-shadow-lg">Empowering Minds, Shaping Futures</p>
+                    <div class="text-xl md:text-2xl font-bold mb-4 drop-shadow-lg">Unlock Your Potential Through <span class="block">Quality Online Learning</span></div>
+                    <p class="text-md md:text-md mb-6 drop-shadow-lg">Discover easy-to-follow tutorials and programs that empower you to grow, improve, and achieve your goals no matter where you are.</p>
                     <a href="#"
                         class="bg-[#541517] hover:bg-[#3e0f11] text-white font-semibold text-lg py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 drop-shadow-lg">Explore
                         Programs</a>

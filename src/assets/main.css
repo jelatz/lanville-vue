@@ -1,3 +1,10 @@
 @import "tailwindcss";
 
 *{box-sizing: border-box;}
+
+/* Custom text truncation utility */
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
