@@ -1,7 +1,7 @@
 <template>
     <header class="w-full md:px-3">
         <div
-            class="md:p-4 pt-5 w-full mx-auto flex justify-between items-center flex-col space-y-5 md:flex-row md:space-y-0">
+            class="pt-5 md:p-4 w-full mx-auto flex justify-between items-center flex-col space-y-5 md:flex-row md:space-y-0">
             <a href="/"><img :src="logoName1" alt="Logo" class="w-62"></a>
             <nav class="relative">
                 <!-- Mobile hamburger button -->
@@ -42,7 +42,7 @@
 
                 <!-- Mobile menu -->
                 <ul v-show="isMenuOpen"
-                    class="md:hidden flex w-full flex-col space-y-4 bg-white border-t border-gray-200 p-4 absolute top-full left-0 right-0 z-50 shadow-lg">
+                    class="md:hidden flex flex-col space-y-4 bg-white border-t border-gray-200 p-4 absolute top-full left-0 right-0 z-50 shadow-lg">
                     <li><a href="/" class="block p-3 text-center hover:bg-[#541517] hover:text-white transition-colors"
                             @click="isMenuOpen = false">Home</a></li>
                     <li><a href="/about"
