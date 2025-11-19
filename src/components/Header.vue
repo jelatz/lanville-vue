@@ -31,7 +31,7 @@
             </button>
 
             <!-- Desktop menu -->
-            <ul class="hidden md:flex  gap-10 justify-center **:hover:bg-[#541517] *:hover:text-white  py-2">
+            <ul class="hidden md:flex  gap-10 justify-center **:hover:underline  py-2">
                 <li class="*:p-3 *:w-full *:text-center *:block"><a href="/">Home</a></li>
                 <li class="*:p-3 *:w-full *:text-center *:block"><a href="/about">About Us</a></li>
                 <li class="*:p-3 *:w-full *:text-center *:block"><a href="">Programs</a></li>

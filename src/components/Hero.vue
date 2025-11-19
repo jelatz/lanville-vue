@@ -6,9 +6,9 @@ import "swiper/css/pagination";
 </script>
 
 <template>
-    <div class="h-200 w-full relative">
+    <div class="w-full relative">
         <Swiper :slides-per-view="1" :autoplay="{ delay: 3000, disableOnInteraction: false }"
-            :modules="[Navigation, Pagination, Autoplay]" :loop="true" :pagination="{ clickable: true }" class="h-200">
+            :modules="[Navigation, Pagination, Autoplay]" :loop="true" :pagination="{ clickable: true }" class="h-130">
             <SwiperSlide>
                 <img src="../assets/images/hero-1.webp" alt="image 1" class="w-full h-full object-cover" />
             </SwiperSlide>
@@ -22,13 +22,13 @@ import "swiper/css/pagination";
             </SwiperSlide>
         </Swiper>
 
-        <div class="absolute inset-y-1/2 w-full md:inset-y-1/2 z-30">
-            <div class="backdrop-blur-sm bg-black/30 rounded-xl border border-white/20 shadow-2xl p-8 max-w-4xl">
+        <div class="absolute inset-y-1/2 w-full md:inset-y-50 z-30">
+            <div class="backdrop-blur-sm bg-black/30 rounded-r-xl border border-white/20 shadow-2xl p-8 max-w-3xl">
                 <div class="text-center text-white">
-                    <div class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Welcome to <span
+                    <div class="text-xl md:text-2xl font-bold mb-4 drop-shadow-lg">Welcome to <span
                             class="block">Lanville
                             Academy</span></div>
-                    <p class="text-xl md:text-2xl mb-6 drop-shadow-lg">Empowering Minds, Shaping Futures</p>
+                    <p class="text-md md:text-lg mb-6 drop-shadow-lg">Empowering Minds, Shaping Futures</p>
                     <a href="#"
                         class="bg-[#541517] hover:bg-[#3e0f11] text-white font-semibold text-lg py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 drop-shadow-lg">Explore
                         Programs</a>
