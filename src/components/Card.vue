@@ -21,7 +21,7 @@ interface Props {
 }
 
 withDefaults(defineProps<Props>(), {
-  containerClass: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12",
+  containerClass: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
   cardClass: "",
   imageClass: "w-full h-auto",
   iconClass: "w-16 h-16 bg-accent p-4 rounded-lg",

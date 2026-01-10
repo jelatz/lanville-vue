@@ -48,7 +48,7 @@
     </Section>
 
     <!-- SERVICES -->
-    <Section variant="primary" padding="md">
+    <Section variant="primary" padding="lg">
       <div class="max-w-394 mx-auto">
         <h1 class="text-5xl font-bold">
           Our <span class="text-accent">Services</span>
@@ -61,7 +61,7 @@
         </h2>
 
         <Card :cards="services" imageClass="w-fit"
-          containerClass="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-10 max-w-6xl mx-auto" cardClass="shadow-xl"
+          containerClass="grid grid-cols-1 lg:grid-cols-3 gap-20 mt-20 max-w-6xl mx-auto" cardClass="shadow-xl w-full"
           descriptionClass="text-white p-4" />
       </div>
     </Section>
