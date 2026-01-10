@@ -1,18 +1,17 @@
 <template>
     <footer class="bg-primary text-white pt-20">
-        <div
-            class="max-w-394 mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 items-center place-items-center gap-12 mb-12">
+        <div class="max-w-394 mx-auto px-10 grid grid-cols-1 lg:grid-cols-3 gap-12 mb-12 lg:items-center">
             <!-- Logo & Tagline -->
-            <div class="text-center lg:text-left w-full">
-                <img :src="LogoWhite" alt="Lanville Academy Logo" class="h-20 w-auto mb-4">
-                <p class="text-gray-200 text-md">
+            <div class="text-center w-full">
+                <img :src="LogoWhite" alt="Lanville Academy Logo" class="mx-auto lg:mx-0 h-20 w-auto mb-4">
+                <p class="text-gray-200 text-md lg:text-left">
                     Empowering learners worldwide with quality education and career advancement opportunities.
                 </p>
             </div>
 
             <!-- Bottom Bar -->
             <!-- <div class="py-8 max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6"> -->
-            <p class="text-gray-300 text-right w-full">
+            <p class="text-gray-300 text-center lg:text-right w-full">
                 © {{ date }} Lanville Academy. All rights reserved.
             </p>
 
