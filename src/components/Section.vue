@@ -1,5 +1,5 @@
 <template>
-    <div :class="[baseClasses, $attrs.class]">
+    <div :class="[baseClasses, $attrs.class]" :id="sectionId">
         <slot></slot>
     </div>
 </template>
@@ -9,7 +9,8 @@ import { computed } from 'vue';
 
 interface Props {
     variant?: 'default' | 'primary' | 'secondary';
-    padding?: 'sm' | 'md' | 'lg' | 'xl';
+    padding?: 'sm' | 'md' | 'lg' | 'xl' | 'xxl' | 'xxxl';
+    sectionId?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -20,15 +21,17 @@ const props = withDefaults(defineProps<Props>(), {
 const baseClasses = computed(() => {
     const variantClasses = {
         default: 'bg-white',
-        primary: 'bg-[#541517] text-white',
-        secondary: 'bg-[#DDCDB1] text-black'
+        primary: 'bg-primary text-white',
+        secondary: 'bg-[#D6B04F] text-black'
     };
 
     const paddingClasses = {
         sm: 'p-4',
         md: 'p-8',
         lg: 'p-12',
-        xl: 'p-16'
+        xl: 'p-16',
+        xxl: 'p-20',
+        xxxl: 'p-24',
     };
 
     return `${variantClasses[props.variant]} ${paddingClasses[props.padding]}`;
