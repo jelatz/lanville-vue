@@ -74,7 +74,7 @@
           What Can You <span class="text-accent">Learn?
           </span> </h2>
 
-        <p class="text-left text-gray-600 max-w-2xl text-left mb-16 text-2xl">
+        <p class="text-left text-gray-600 max-w-2xl mb-16 text-2xl">
           We support students from elementary to college across core academic domains.
         </p>
 
@@ -216,19 +216,19 @@ const services = [
   {
     id: 1,
     title: "Online Tutorial",
-    imageUrl: "/src/assets/images/hero-main.jpg",
+    imageUrl: HeroMain,
     description: "Personalized online tutorials designed to help students master core subjects at their own pace.",
   },
   {
     id: 2,
     title: "Test Preparation",
-    imageUrl: "/src/assets/images/hero-main.jpg",
+    imageUrl: HeroMain,
     description: "Focused exam reviews and practice sessions to help students perform confidently in tests.",
   },
   {
     id: 3,
     title: "Homework Assistance",
-    imageUrl: "/src/assets/images/hero-main.jpg",
+    imageUrl: HeroMain,
     description: "Guided homework support that helps students understand concepts, not just finish tasks.",
   },
 ]
