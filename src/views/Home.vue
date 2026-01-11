@@ -118,7 +118,7 @@
             </div>
 
             <a href="#contact"
-              class="inline-flex items-center justify-center rounded-full bg-white text-blue-900 font-semibold px-8 py-4 text-lg hover:bg-blue-100 transition">
+              class="inline-flex items-center justify-center rounded-full bg-white text-blue-900 font-semibold text-center px-8 py-4 text-md lg:text-lg hover:bg-blue-100 transition">
               Ask About Your Subject
             </a>
           </div>
