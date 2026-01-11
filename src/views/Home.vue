@@ -151,7 +151,7 @@
 
     <!-- CONTACT FORM -->
     <Section variant="default" padding="xl" sectionId="contact">
-      <div class="max-w-3xl mx-auto px-6">
+      <div class="max-w-3xl mx-auto">
         <!-- Accent bar -->
         <div class="bg-accent w-24 h-2 mb-8 rounded-full"></div>
 
@@ -280,5 +280,9 @@ const cardsWithIcons = [
 .container {
   max-width: 80rem;
   margin: 0 auto;
+}
+
+input {
+  width: 100%;
 }
 </style>
