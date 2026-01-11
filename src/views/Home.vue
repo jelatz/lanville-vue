@@ -145,7 +145,7 @@
         </p>
 
         <Card :cards="cardsWithIcons" iconClass="w-16 h-16 bg-accent p-4 rounded-lg hover:bg-[#f4b147]"
-          descriptionClass="text-white p-4" cardClass="shadow-xl p-10" />
+          descriptionClass="text-white p-4" cardClass="shadow-2xl p-10 border shadow-accent/20 border-accent/20" />
       </div>
     </Section>
 
