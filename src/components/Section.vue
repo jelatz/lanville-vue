@@ -26,12 +26,12 @@ const baseClasses = computed(() => {
     };
 
     const paddingClasses = {
-        sm: 'p-4',
-        md: 'p-8',
-        lg: 'p-12',
-        xl: 'p-16',
-        xxl: 'p-20',
-        xxxl: 'p-24',
+        sm: 'p-10 lg:p-4',
+        md: 'p-10 lg:p-8',
+        lg: 'p-10 lg:p-12',
+        xl: 'p-10 lg:p-16',
+        xxl: 'p-10 lg:p-20',
+        xxxl: 'p-10 lg:p-24',
     };
 
     return `${variantClasses[props.variant]} ${paddingClasses[props.padding]}`;
